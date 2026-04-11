@@ -43,6 +43,7 @@ The framework follows a **Hybrid approach** combining:
 ![Framework Architecture](Framework Architecture.png)
 
 ## Project Structure 
+```
 Veeva-Project
 │
 ├── src
@@ -61,6 +62,7 @@ Veeva-Project
 ├── screenshots/ # Failure screenshots
 ├── pom.xml # Maven configuration
 └── README.md # Project documentation
+```
 
 ## Prerequisites
 - Java JDK 8+
