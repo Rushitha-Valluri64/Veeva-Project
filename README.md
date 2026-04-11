@@ -40,7 +40,7 @@ The framework follows a **Hybrid approach** combining:
 - **Reusable Utility Components**
 
 ## Architecture Diagram
-![Framework Architecture](Framework Architecture.png)
+![Framework Architecture](framework-architecture.png)
 
 ## Project Structure 
 ```
