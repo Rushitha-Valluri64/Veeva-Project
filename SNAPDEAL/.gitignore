@@ -1,0 +1,25 @@
+# Maven build directory
+target/
+
+# TestNG and Cucumber reports
+test-output/
+cucumber-reports/
+extent-reports/
+allure-results/
+allure-report/
+
+# Logs and screenshots
+logs/
+screenshots/
+*.log
+
+# IDE files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
