@@ -40,9 +40,10 @@ The framework follows a **Hybrid approach** combining:
 - **Reusable Utility Components**
 
 ## Architecture Diagram
-![Framework Architecture](Framework Architecture.png)
+![Framework Architecture](framework-architecture.png)
 
 ## Project Structure 
+```
 Veeva-Project
 │
 ├── src
@@ -61,6 +62,7 @@ Veeva-Project
 ├── screenshots/ # Failure screenshots
 ├── pom.xml # Maven configuration
 └── README.md # Project documentation
+```
 
 ## Prerequisites
 - Java JDK 8+
@@ -77,14 +79,14 @@ mvn clean test
 ```
 ## Eclipse IDE Setup
 # Import as Maven project
-File -> Import -> Maven -> Existing Maven Projects
+```File -> Import -> Maven -> Existing Maven Projects```
 
 # Run tests from Eclipse
-Right-click TestRunner.java -> Run As -> TestNG Test
+```Right-click TestRunner.java -> Run As -> TestNG Test```
 
 ## Cross-Browser Support
 Browser selection is controlled via config.properties:
-browser=chrome
+```browser=chrome```
 
 ## Reporting & Logging
 Execution reports are generated in the test-output/ directory.
@@ -97,16 +99,19 @@ Add a product to the cart and validate totals.
 
 ## Feature Files
 # 01_search.feature
-Feature: Search functionality
+```Feature: Search functionality
 Scenario: Search products from Excel
   Given User is on homepage
   When User searches for products from excel
+```
 
 # 02_menuCart.feature
 Feature: Kids Fashion Cart Flow
+```
 Scenario: Add products from Excel
   Given User is on Snapdeal homepage
   When User performs menu operations from excel
+```
 
 ## OOP Concepts Implemented
 Encapsulation
@@ -119,7 +124,7 @@ Interfaces
 Detailed documentation is available in Snapdeal Automation Framework Project.pdf.
 
 ## Git Repository
-https://github.com/Rushitha-Valluri64/Veeva-Project.git
+```https://github.com/Rushitha-Valluri64/Veeva-Project.git```
 
 ## Author
 Rishitha Valluri
@@ -128,6 +133,8 @@ Rishitha Valluri
 This project is developed for academic and evaluation purposes only.
 
 ## Contact
+```
 Maintainer: AutoTest Duo Team
 Email: vallurigowthami60@gmail.com
 GitHub: https://github.com/Rushitha-Valluri64/Veeva-Project.git
+```
